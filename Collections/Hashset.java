@@ -7,20 +7,16 @@ public class Main{
     {
         Set<Integer> hs = new HashSet<Integer>();
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter number of values:-");
+        System.out.println("Enter number of values to be enter");
         int c=sc.nextInt();
-        System.out.println("Enter the Values:-");
-            while(sc.hasNext()) 
-            {
-		        while(c>0)
-		        {       
-		            c--;
-		            Integer a = sc.nextInt();
-		            hs.add(a);
-		        }
-		        break;
-	    	}
-        System.out.println("The Values are:-");
+        System.out.println("Enter the Values");
+		while(c>0)
+		{       
+		      c--;
+		      Integer a = sc.nextInt();
+		      hs.add(a);
+		}
+        System.out.println("The Values are");
         for (Integer number : hs) {
             System.out.print(number+" ");
         }
