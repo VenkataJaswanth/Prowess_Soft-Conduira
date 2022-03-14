@@ -2,7 +2,7 @@
 class Main extends Thread {
 	public void run()
 	{
-		System.out.println(Thread.currentThread().getName() +" Hello World");
+		System.out.println(Thread.currentThread().getName() +" Hello All");
 	}
     public static void main(String[] args)
 	{
